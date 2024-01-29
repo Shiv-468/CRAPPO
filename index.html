@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
-<body class="outline-black outline-[1px] outline">
-    <section class="bg-[#0D0D2B] relative">
-        <div class="absolute left-[24%] bottom-0 z-0 hidden md:block">
+<body>
+    <section class="bg-[#0D0D2B] relative z-10">
+        <div class="absolute left-[13%] bottom-[-7%] -z-10 hidden md:block">
             <img src="./dist/images/section-bg-1.png" alt="section-bg-1" class="w-full">
         </div>
         <div class="absolute right-[0%] bottom-0 z-0 hidden md:block">
             <img src="./dist/images/section-bg-2.png" alt="section-bg-2" class="w-full">
         </div>
-        <div class="container max-w-[1320px] mx-auto min-h-[100vh] flex flex-col px-[12px]">
+        <div class="container max-w-[1200px] mx-auto min-h-[100vh] flex flex-col px-[12px]">
             <div class="flex justify-between pt-[30px] md:pt-[60px] items-center z-10">
                 <div class="flex items-center gap-4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -45,7 +45,7 @@
                 <ul
                     class="flex items-center gap-[32px] max-md:fixed  max-md:bg-[#0D0D2B] max-md:w-full max-md:h-full max-md:top-0 max-md:right-[-100%] max-md:flex-col max-md:justify-center menulist duration-300">
                     <li><a href="#"
-                            class="text-[16px] text-[#FFF] font-[400] leading-[28px] tracking-[0.16px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 duration-300  after:transition-all">Proudct</a>
+                            class="text-[16px] text-[#FFF] font-[400] leading-[28px] tracking-[0.16px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 duration-300  after:transition-all">Prouducts</a>
                     </li>
                     <li><a href="#"
                             class="text-[16px] text-[#FFF] font-[400] leading-[28px] tracking-[0.16px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 duration-300  after:transition-all">Features</a>
@@ -57,10 +57,12 @@
                             class="text-[16px] text-[#FFF] font-[400] leading-[28px] tracking-[0.16px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 duration-300  after:transition-all">Contact</a>
                     </li>
                     <li><a href="#"
-                            class="text-[16px] text-[#FFF] font-[400] leading-[28px] tracking-[0.16px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 duration-300  after:transition-all">Login</a>
+                            class="text-[16px] text-[#FFF] font-[500] leading-[28px] tracking-[0.16px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 duration-300  after:transition-all md:ml-[24px]">Login</a>
                     </li>
-                    <li><button
-                            class="py-[14px] px-[32px] text-white rounded-[210px] text-[16px] font-[500] bg-[#3671E9] font-Rubik leading-[24px] hover:bg-white hover:text-[#3671E9] duration-300">Register</button>
+                    <li>
+                        <div class="bg-[#F2F2F2] w-[1px] h-[24px] opacity-[0.3] hidden md:block"></div>
+                    </li>
+                    <li><button class="relative py-[14px] px-[32px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9] hover:shadow-[#3671E9] hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[16px] font-[500] leading-[24px]">Register</span></button>
                     </li>
                 </ul>
                 <div class="menuicon md:hidden block z-50">
@@ -83,11 +85,11 @@
                         <h1 class="text-[30px] sm:text-[64px] text-white font-[700]  font-Rubik pt-[32px] pb-[24px]">
                             Fastest & secure platform to invest in crypto</h1>
                         <p
-                            class="text-[#E0E0E0] font-Rubik text-[16px] font-[400] leading-[28px] tracking-[0.16px] pb-[32px]">
+                            class="text-[#E0E0E0] font-Rubik text-[16px] font-[400] leading-[28px] tracking-[0.16px] pb-[32px] max-w-[435px]">
                             Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.
                         </p>
                         <div
-                            class="flex cursor-pointer py-4 pl-[24px] pr-4 items-center text-white text-[18px] font-Rubik font-[500] leading-[27px] bg-[#3671E9] hover:bg-white hover:text-[#3671E9] rounded-[32px] max-w-[202px] justify-between">
+                            class="flex cursor-pointer py-4 pl-[24px] pr-4 items-center text-white text-[18px] font-Rubik font-[500] leading-[27px] bg-[#3671E9] hover:bg-white hover:text-[#3671E9] shadow-2xl shadow-[#3671E9] rounded-[32px] max-w-[202px] justify-between duration-300">
                             Try for FREE
                             <div class="p-1 bg-white flex items-center justify-center rounded-[50px]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -107,8 +109,8 @@
             </div>
         </div>
     </section>
-    <section class="bg-[#0D0D2B]">
-        <div class="container max-w-[1320px] mx-auto px-3">
+    <section class="bg-[#0D0D2B] translate-y-[-1px] -z-0">
+        <div class="container max-w-[1200px] mx-auto px-3">
             <div class="flex flex-wrap -mx-3 md:pt-[100px]">
                 <div class="w-full sm:w-[50%] md:w-[33.33%] px-3">
                     <div class="flex gap-[18px] sm:gap-[24px] max-sm:justify-center max-sm:pl-[20px]">
@@ -190,7 +192,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-[#0D0D2B] relative">
+    <section class="bg-[#0D0D2B] relative translate-y-[-1px]">
         <div class="absolute z-0 right-0 hidden md:block">
             <img src="./dist/images/D-bg.png" alt="D-bg" class="w-full">
         </div>
@@ -200,7 +202,7 @@
         <div class="absolute z-0 left-0 bottom-[40%] hidden md:block">
             <img src="./dist/images/sectio-bg-3.png" alt="sectio-bg-3" class="w-full">
         </div>
-        <div class="container max-w-[1320px] mx-auto px-3">
+        <div class="container max-w-[1200px] mx-auto px-3">
             <div class="flex -mx-3 flex-wrap pt-[80px] md:pt-[176px] z-10">
                 <div class="w-full md:w-[50%] px-3">
                     <img src="./dist/images/Illustrations-2.png" alt="Illustrations-2" class="w-full">
@@ -209,12 +211,10 @@
                     <h3 class="text-white font-Rubik font-[700] text-[40px] leading-[60px] max-w-[480px]">Why you should
                         choose CRAPPO</h3>
                     <p
-                        class="text-[#E0E0E0] font-Rubik text-[16px] font-[400] leading-[28px] tracking-[0.16px] pt-[24px] pb-[32px] max-w-[408px]:">
+                        class="text-[#E0E0E0] font-Rubik text-[16px] font-[400] leading-[28px] tracking-[0.16px] pt-[24px] pb-[32px] max-w-[408px]">
                         Experience the next generation cryptocurrency platform. No financial borders, extra fees, and
                         fake reviews.</p>
-                    <button
-                        class="py-4 px-6 rounded-[32px] bg-[#3671E9] hover:bg-white hover:text-[#3671E9] text-white leading-[27px] font-Rubik font-[500] text-[18px] duration-300">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[24px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9] hover:shadow-[#3671E9] hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[18px] font-[500] leading-[27px]">Learn More</span></button>
                 </div>
             </div>
             <div class="flex flex-col items-center gap-6 pt-[100px]">
@@ -227,7 +227,7 @@
             <div
                 class="flex flex-wrap p-[48px] max-sm:pb-0 bg-[#FBFCFE] max-w-[942px] rounded-t-[16px] mx-auto mt-[64px]">
                 <div class="w-full md:w-[50%] px-3 flex justify-end flex-col">
-                    <div class="border-b-[1px] border-b-[black] pb-[8px]">
+                    <div class="border-b-[1px] border-b-[#E0E0E0] pb-[8px]">
                         <input type="text" placeholder="Enter your hash rate"
                             style="outline: none; border: none; opacity: 1;"
                             class="text-[20px] text-black font-Rubik placeholder:text-black font-[400] leading-[30px] opacity-[1] w-full">
@@ -236,19 +236,15 @@
 
                 <div class="w-full md:w-[50%] px-3">
                     <div class="flex items-end justify-between flex-wrap mt-6 sm:mt-0">
-                        <div
-                            class="border-b-[1px] border-b-[black] pb-[8px] flex items-center max-w-[200px] md:max-w-[154px] lg:max-w-[200px]">
-                            <input type="text" placeholder="TH/s" style="outline: none; border: none; opacity: 1;"
-                                class="text-[20px] text-black font-Rubik placeholder:text-black font-[400] leading-[30px] opacity-[1] w-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                                fill="none">
-                                <rect width="16" height="16" fill="white" style="fill:white;fill-opacity:1;" />
-                                <path
-                                    d="M13.1315 4.6875H2.86897C2.56116 4.6875 2.38929 5.0125 2.57991 5.23438L7.71116 11.1844C7.85804 11.3547 8.14085 11.3547 8.28929 11.1844L13.4205 5.23438C13.6112 5.0125 13.4393 4.6875 13.1315 4.6875Z"
-                                    fill="#BDBDBD"
-                                    style="fill:#BDBDBD;fill:color(display-p3 0.7412 0.7412 0.7412);fill-opacity:1;" />
-                            </svg>
-                        </div>
+                        <select
+                                class=" w-full bg-transparent border-b-[1px] border-solid border-[#E0E0E0] pb-2 outline-none flex items-center max-w-[200px] md:max-w-[154px] lg:max-w-[200px] text-[20px] text-black font-Rubik placeholder:text-black font-[400] leading-[30px] opacity-[1]">
+                                <option value="TH/s">TH/s</option>
+                                <option value="EH/s">EH/s</option>
+                                <option value="PH/s">PH/s</option>
+                                <option value="GH/s">GH/s</option>
+                                <option value="MH/s">MH/s</option>
+                                <option value="kH/s">kH/s</option>
+                            </select>
                         <button
                             class="text-[18px] text-white font-Rubik hover:bg-white hover:text-[#3671E9] border-[1px] border-solid border-[#3671E9] font-[500] leading-[27px] py-[16px] px-[32px] mt-8 bg-[#3671E9] rounded-[32px] duration-300">Calculate</button>
                     </div>
@@ -256,12 +252,12 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container max-w-[1320px] mx-auto px-3">
-            <div class=" p-[48px] bg-white max-w-[942px] rounded-b-[16px] mx-auto mix-blend-overlay shadow-light-red">
+    <section class="translate-y-[-1px]">
+        <div class="container max-w-[1200px] mx-auto px-3">
+            <div class=" p-[48px] bg-white max-w-[942px] rounded-b-[16px] mx-auto mix-blend-overlay shadow-light-red ">
                 <h4 class="text-[16px] font-[500] leading-[24px] tracking-[0.64px] text-[#3671E9]">ESTIMATED 24 HOUR
                     REVENUE:</h4>
-                <h3 class="text-[32px] font-Rubik leading-[48px] font-[700] tracking-[1.28px]">0.055 130 59 ETH <span
+                <h3 class="text-[32px] font-Rubik leading-[48px] font-[700] tracking-[1.28px] pt-4 pb-1">0.055 130 59 ETH <span
                         class="text-[#3671E9] text-[32px] font-Rubik leading-[48px] font-[700] tracking-[1.28px]">($1275)</span>
                 </h3>
                 <p class="text-[#828282] leading-[28px] font-Rubik font-[400] text-[16px] tracking-[0.16px]">Revenue
@@ -269,13 +265,13 @@
             </div>
             <div class="flex justify-center">
                 <h2
-                    class="font-Rubik font-[700] text-[30px] leading-[37px] sm:text-[40px] sm:leading-[60px] text-center pt-[100px] max-w-[741px]">
+                    class="font-Rubik font-[700] text-[30px] leading-[37px] sm:text-[40px] sm:leading-[60px] text-center pt-[100px] max-w-[741px] text-[#0D0D2B]">
                     Trade securely and market the high growth cryptocurrencies.</h2>
             </div>
             <div class="flex flex-wrap -mx-3 pt-[64px] pb-[100px] justify-center md:justify-normal">
                 <div class="w-full sm:w-[50%] md:w-[33.33%] px-3 ">
                     <div
-                        class="py-[48px] px-[30px] group flex flex-col hover:bg-[#2B076E] shadow-light-red rounded-[16px] items-center justify-center h-full hover:duration-300">
+                        class="py-[48px] px-[30px] group flex flex-col hover:bg-[#2B076E] shadow-light-red rounded-[16px] items-center justify-center h-full duration-700 ease-in-out">
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                             <g clip-path="url(#clip0_1_17809)">
                                 <path
@@ -337,7 +333,7 @@
                 </div>
                 <div class="w-full sm:w-[50%] md:w-[33.33%] px-3 mt-3 sm:mt-0">
                     <div
-                        class="py-[48px] px-[30px] group flex flex-col hover:bg-[#2B076E] shadow-light-red rounded-[16px] items-center justify-center h-full hover:duration-300">
+                        class="py-[48px] px-[30px] group flex flex-col hover:bg-[#2B076E] shadow-light-red rounded-[16px] items-center justify-center h-full  duration-700 ease-in-out">
                         <div
                             class="flex items-center justify-center bg-[#1181E8] w-[80px] h-[80px] p-[16px] rounded-[50px]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
@@ -395,7 +391,7 @@
                 </div>
                 <div class="w-full sm:w-[50%] md:w-[33.33%] px-3 mt-3 md:mt-0">
                     <div
-                        class="py-[48px] px-[30px] group flex flex-col hover:bg-[#2B076E] shadow-light-red rounded-[16px] items-center justify-center h-full duration-300">
+                        class="py-[48px] px-[30px] group flex flex-col hover:bg-[#2B076E] shadow-light-red rounded-[16px] items-center justify-center h-full duration-700 ease-in-out">
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                             <g clip-path="url(#clip0_1_17822)">
                                 <circle cx="40" cy="40" r="40" fill="white" style="fill:white;fill-opacity:1;" />
@@ -452,11 +448,11 @@
             </div>
         </div>
     </section>
-    <section class="bg-[#2B076E] relative">
+    <section class="bg-[#2B076E] relative ">
         <div class="absolute z-0 left-[10%] hidden md:block">
             <img src="./dist/images/o-bg.png" alt="o-bg" class="w-full">
         </div>
-        <div class="container max-w-[1320px] mx-auto px-3">
+        <div class="container max-w-[1200px] mx-auto px-3">
             <div class=" flex justify-center pt-[100px] z-10">
                 <h4
                     class="text-white max-w-[750px] font-[700] font-Rubik text-[30px] leading-[37px] sm:text-[40px] sm:leading-[60px] text-center">
@@ -469,9 +465,7 @@
                         class="text-[#E0E0E0] text-[16px] font-Rubik font-[400] leading-[28px] tracking-[0.16px] pt-[24px] pb-[32px] max-w-[408px]">
                         Get full statistic information about the behaviour of buyers and sellers will help you to make
                         the decision.</p>
-                    <button
-                        class="text-[18px] text-white font-Rubik font-[500] leading-[27px] py-[16px] px-[32px] bg-[#3671E9] rounded-[32px] hover:bg-white hover:text-[#3671E9] duration-300">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[24px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9] hover:shadow-[#3671E9] hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[18px] font-[500] leading-[27px]">Learn More</span></button>
                 </div>
                 <div class="w-full md:w-[50%] px-3 mt-[50px] md:mt-0">
                     <img src="./dist/images/Chart.png" alt="Chart" class="w-full">
@@ -479,11 +473,11 @@
             </div>
         </div>
     </section>
-    <section class="bg-[#2B076E] relative">
+    <section class="bg-[#2B076E] relative ">
         <div class="absolute z-0 right-0 bottom-0 hidden md:block">
             <img src="./dist/images/o-2-bg.png" alt="o-bg" class="w-full">
         </div>
-        <div class="container max-w-[1320px] mx-auto px-3 pt-[60px] pb-[60px] sm:pb-[120px]">
+        <div class="container max-w-[1200px] mx-auto px-3 pt-[60px] pb-[60px] sm:pb-[120px]">
             <div class="flex flex-wrap -mx-3 items-center z-10 ">
                 <div class="w-full md:w-[58.33%] px-3 md:h-[480px]">
                     <div class=" lg:absolute lg:w-[52%] left-0">
@@ -496,13 +490,11 @@
                         class="text-[#E0E0E0] leading-[28px] font-Rubik font-[400] text-[16px] tracking-[0.16px] pt-[24px] pb-[32px] max-w-[408px]">
                         View all mining related information in realtime, at any point at any location and decide which
                         polls you want to mine in.</p>
-                    <button
-                        class="text-[18px] text-white font-Rubik font-[500] leading-[27px] py-[16px] px-[32px] bg-[#3671E9] rounded-[32px] hover:bg-white hover:text-[#3671E9] duration-300">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[24px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9] hover:shadow-[#3671E9] hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[18px] font-[500] leading-[27px]">Learn More</span></button>
                 </div>
             </div>
         </div>
-        <div class="container max-w-[1320px] px-3 mx-auto">
+        <div class="container max-w-[1200px] px-3 mx-auto">
             <div class="flex flex-wrap -mx-3 md:pt-[120px] md:pb-[100px] z-10 flex-col-reverse md:flex-row">
                 <div class="w-full md:w-[41.66%] px-3 mt-[50px] md:mt-0">
                     <h3 class="text-[32px] text-white font-Rubik font-[700] leading-[48px]">Grow your profit and track
@@ -511,9 +503,7 @@
                         class="text-[#E0E0E0] leading-[28px] font-Rubik font-[400] text-[16px] tracking-[0.16px] pt-[24px] pb-[32px] max-w-[408px]">
                         Use advanced analytical tools. Clear TradingView charts let you track current and historical
                         profit investments.</p>
-                    <button
-                        class="text-[18px] text-white font-Rubik font-[500] leading-[27px] py-[16px] px-[32px] bg-[#3671E9] rounded-[32px] hover:bg-white hover:text-[#3671E9] duration-300">Learn
-                        More</button>
+                        <button class="relative py-[16px] px-[24px] overflow-hidden border border-[#3671E9] rounded-[32px] bg-[#3671E9] text-white shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-[#3671E9] hover:shadow-[#3671E9] hover:before:w-2/4 hover:before:bg-white hover:after:w-2/4 hover:after:bg-white"><span class="relative z-10 font-Rubik text-[18px] font-[500] leading-[27px]">Learn More</span></button>
                 </div>
                 <div class="w-full md:w-[58.33%] px-3 z-10 ">
                     <img src="./dist/images/Table.png" alt="Table" class="w-full">
@@ -521,7 +511,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-gradient-to-t from-[#0D0D2B] to-[#2B076E] relative">
+    <section class="bg-gradient-to-t from-[#0D0D2B] to-[#2B076E] relative ">
         <div class="absolute right-[16%] hidden md:block">
             <img src="./dist/images/section-bg-4.png" alt="section-bg-4" class="w-full">
         </div>
@@ -529,7 +519,7 @@
             <img src="./dist/images/section-bg-5.png" alt="section-bg-5" class="w-full">
         </div>
 
-        <div class="container max-w-[1320px] px-3 mx-auto py-[88px] relative">
+        <div class="container max-w-[1200px] px-3 mx-auto py-[88px] relative">
             <div class="absolute left-[2%]">
                 <img src="./dist/images/Vector-bg.png" alt="Vector-bg" class="w-full">
             </div>
@@ -558,7 +548,7 @@
         </div>
     </section>
     <footer class="bg-[#0D0D2B]">
-        <div class="container max-w-[1320px] px-3 mx-auto">
+        <div class="container max-w-[1200px] px-3 mx-auto">
             <div class="flex flex-wrap -mx-3 md:pt-[80px] pb-[60px] md:pb-[120px]">
                 <div class="w-full sm:w-[50%] md:w-[25%] px-3">
                     <div class="flex items-center gap-4">
@@ -585,7 +575,8 @@
                         <h2 class="text-[18px] leading-[0.72px] text-white font-[600]">CRAPPO</h2>
                     </div>
                 </div>
-                <div class="w-full sm:w-[50%] md:w-[25%] px-3 mt-6 sm:mt-0">
+                <div class="w-full sm:w-[50%] md:w-[41.33%] px-3 mt-6 sm:mt-0 flex justify-around">
+                   <div class="flex flex-col">
                     <h4 class="text-white leading-[30px] font-Rubik font-[500] text-[20px]">Quick Link</h4>
                     <ul class="pt-[24px]">
                         <li><a href="#"
@@ -604,9 +595,9 @@
                                 class="text-[16px] text-[#FFF] font-[400] leading-[38px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 after:duration-300">Contact</a>
                         </li>
                     </ul>
-                </div>
-                <div class="w-full sm:w-[50%] md:w-[25%] px-3 mt-6 md:mt-0">
-                    <h4 class="text-white leading-[30px] font-Rubik font-[500] text-[20px]">Resources</h4>
+                   </div>
+                    <div class=" flex flex-col">
+                        <h4 class="text-white leading-[30px] font-Rubik font-[500] text-[20px]">Resources</h4>
                     <ul class="pt-[24px]">
                         <li><a href="#"
                                 class="text-[16px] text-[#FFF] font-[400] leading-[38px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 after:duration-300">Download
@@ -624,8 +615,9 @@
                                 class="text-[16px] text-[#FFF] font-[400] leading-[38px] font-Rubik relative after:absolute after:w-0 after:h-[2px] after:bg-white after:left-0 after:hover:w-full after:bottom-0 after:duration-300">Interest</a>
                         </li>
                     </ul>
+                    </div>
                 </div>
-                <div class="w-full sm:w-[50%] md:w-[25%] px-3 mt-6 md:mt-0">
+                <div class="w-full sm:w-[50%] md:w-[33.33%] px-3 mt-6 md:mt-0">
                     <h3
                         class="text-[28px] sm:text-[32px] text-white font-Rubik font-[500] leading-[37px] sm:leading-[48px]">
                         We accept following payment systems</h3>

@@ -8,7 +8,7 @@ module.exports = {
         'Rubik':('Rubik')
       },
       boxShadow:{
-        'light-red':('0px 2px 5px 0px rgba(57,23,119,0.53)')
+        'light-red':(' 0px 10px 10px #391777')
       }
     },
   },

@@ -2518,6 +2518,26 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pl-\[\]{
+  padding-left: ;
+}
+
+.pl-\[60\]{
+  padding-left: 60;
+}
+
+.pl-\[60px\]{
+  padding-left: 60px;
+}
+
+.pl-\[80\]{
+  padding-left: 80;
+}
+
+.pl-\[80px\]{
+  padding-left: 80px;
+}
+
 .text-left{
   text-align: left;
 }
